@@ -1,0 +1,166 @@
+.right-form {
+  width: 75%;
+  margin-left: 5rem;
+}
+
+.label {
+  color: grey;
+  text-align: left;
+  font-size: 1.2rem;
+}
+.aadhar-div {
+  margin-top: 4rem;
+  display: flex;
+}
+#fetch-details {
+  margin-left: 6rem;
+  background-image: linear-gradient(to top left, #f5aa08 10%, #ee5108 90%);
+  width: 15rem;
+  height: 3rem;
+  /* padding: auto; */
+  font-size: 2rem;
+  margin-left: 10rem;
+  border: none;
+  cursor: pointer;
+}
+.patient-form {
+  display: flex;
+}
+.section-1 {
+  width: 50%;
+}
+
+.input1 {
+  outline: none;
+  border: none;
+  border-bottom: 2px black solid;
+  width: 25rem;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  margin-left: 0;
+}
+
+.input-field {
+  display: table-row;
+}
+.input-field label {
+  display: block;
+}
+
+.section-2 {
+  width: 50%;
+}
+
+#submit {
+  background-image: linear-gradient(to top left, #f5aa08 10%, #ee5108 90%);
+  width: 10rem;
+  height: 4rem;
+  /* padding: auto; */
+  font-size: 2rem;
+  margin-left: 10rem;
+  border: none;
+  cursor: pointer;
+}
+
+.pagetitlediv {
+  color: #ee5108;
+  font-size: 2rem;
+  text-align: left;
+  padding-top: 2rem;
+  padding-right: 4rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.output {
+  outline: none;
+  border: none;
+  width: 25rem;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  margin-left: 0;
+  color: black;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.schedule-title {
+  color: black;
+  margin-top: 2rem;
+  display: flex;
+}
+.date {
+  font-size: 2rem;
+  text-align: left;
+}
+.am-pm {
+  display: flex;
+  width: 10rem;
+  border: 1px #ee5108 solid;
+  color: #ee5108;
+  margin-left: 2rem;
+}
+.am {
+  width: 50%;
+}
+.pm {
+  width: 50%;
+}
+.time-active {
+  background-color: #ee5108;
+  color: white;
+}
+.am-pm p {
+  padding: 5px;
+}
+
+table.header-time {
+  margin-top: 3rem;
+  color: black;
+}
+
+td {
+  margin: 1rem;
+}
+.time {
+  border: 1px #ee5108 solid;
+  width: 5rem;
+  height: 2rem;
+  margin-right: 5.5rem;
+  margin-top: 0.8rem;
+  color: #ee5108;
+}
+.time:hover {
+  cursor: pointer;
+}
+.time p {
+  text-align: center;
+  padding-top: 3px;
+}
+
+.header-time {
+  border: none;
+  margin-right: 5.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.request-head {
+  color: black;
+  margin: 6px;
+  font-size: 1.4rem;
+}
+
+h3 {
+  color: #ee5108;
+  font-size: 2rem;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+.section-1-requests {
+}
+.section-2-confirmed-requests {
+}

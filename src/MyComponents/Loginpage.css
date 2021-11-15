@@ -1,0 +1,170 @@
+.main {
+  /* box-shadow: 10px; */
+  position: relative;
+  align-self: center;
+  width: 100rem;
+  height: 60rem;
+  background-color: rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(200px);
+  filter: blur();
+  box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
+  border-radius: 9px;
+  overflow: hidden;
+  display: flex;
+  background-color: #ffffff;
+  opacity: 0.8;
+  border-radius: 9px;
+  color: #fff;
+  /* width: 85%; */
+  /* padding: 2rem; */
+  text-align: center;
+  transition: all 0.75s;
+}
+
+.left {
+  width: 50%;
+  background-color: tomato;
+  padding: 5rem;
+}
+.medical {
+  /* width: ; */
+  width: 50rem;
+  margin: 0;
+  height: 60rem;
+}
+
+.right {
+  width: 50%;
+}
+
+.welcome {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.form {
+  background-color: #ffffff;
+  width: 30rem;
+  display: flex;
+  color: rgb(0, 0, 0);
+  border-radius: 2rem;
+  padding: 7px;
+  /* padding-bottom: 0; */
+  padding-left: 2rem;
+  margin-left: 5rem;
+  margin-top: 3rem;
+}
+.input {
+  /* width: 30rem; */
+  /* height: 3rem; */
+  /* border-radius: 10px; */
+  font-size: 1.5rem;
+  margin-left: 3rem;
+  outline: none;
+  border: none;
+}
+
+.button {
+  border-radius: 10px;
+  /* size: auto; */
+}
+.login-button {
+  background-image: linear-gradient(to top left, #f5aa08 10%, #ee5108 90%);
+  width: 10rem;
+  height: 4rem;
+  padding: auto;
+  font-size: 2rem;
+  margin-right: 3rem;
+  border: none;
+  cursor: pointer;
+}
+.signup-button {
+  background: transparent;
+  background-image: linear-gradient(to top left, #f5aa08 20%, #ee5108 80%);
+  width: 15rem;
+  height: 4rem;
+  margin-right: 3rem;
+  padding: auto;
+  font-size: 2rem;
+  border: none;
+  cursor: pointer;
+  backdrop-filter: blur(10px);
+  transition: all 0.2s;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+}
+.button:active {
+  transform: translate(-1%, 3px);
+  box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.button:focus {
+  outline: none;
+}
+
+.forget {
+  padding-left: 6rem;
+  padding-top: 2rem;
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+.forgot {
+  text-align: left;
+}
+
+.switch {
+  padding-top: 5rem;
+  padding-left: 5rem;
+  display: flex;
+}
+.admin {
+  font-size: 2rem;
+  color: #fff;
+}
+.react-switch-checkbox {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+.react-switch-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  width: 7rem;
+  height: 3rem;
+  background: grey;
+  border-radius: 100px;
+  position: relative;
+  transition: background-color 0.2s;
+}
+
+.react-switch-label .react-switch-button {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 3rem;
+  height: 2.5rem;
+  border-radius: 45px;
+  transition: 0.2s;
+  background: #fff;
+  box-shadow: 0 0 2px 0 rgba(10, 10, 10, 0.29);
+}
+
+.react-switch-checkbox:checked + .react-switch-label .react-switch-button {
+  left: calc(100% - 2px);
+  transform: translateX(-100%);
+}
+
+.react-switch-label:active .react-switch-button {
+  width: 4rem;
+}
+
+.react-switch-checkbox:checked + .react-switch-label {
+  background-color: #08a730;
+}
+
+.admin-sec {
+  padding-right: 2rem;
+}
